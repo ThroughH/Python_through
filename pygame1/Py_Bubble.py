@@ -7,7 +7,7 @@ screen_height = 640
 screen = pygame.display.set_mode([screen_width, screen_height])
 
 # 게임 이름
-pygame.display.set_caption("Through Bubble Game 1st")
+pygame.display.set_caption("Through Bubble Game")
 
 # 배경 이미지
 background = pygame.image.load("C:/data/Python/background.jpg")
