@@ -10,10 +10,10 @@ screen = pygame.display.set_mode([screen_width, screen_height])
 pygame.display.set_caption("Through Bubble Game")
 
 # 배경 이미지
-background = pygame.image.load("C:/data/Python/background.jpg")
+background = pygame.image.load("C:/data/Python/Test/background.jpg")
 
 # 게임 주인공
-hero = pygame.image.load("C:/data/Python/hero.png")
+hero = pygame.image.load("C:/data/Python/Test/hero.png")
 hero_size = hero.get_rect().size
 hero_width = hero_size[0]
 hero_height = hero_size[1]
